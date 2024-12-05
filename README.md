@@ -35,7 +35,8 @@ public:
     }
 };
 
-#endif```
+#endif
+```
 
 All Set! You’re now ready to start creating your game with the engine.
 
@@ -43,7 +44,8 @@ All Set! You’re now ready to start creating your game with the engine.
 Below are examples of how you can use this engine to build a main menu for your game.
 
 menu.h:
-```// SCENE INDEX 0
+```
+// SCENE INDEX 0
 
 #ifndef MM_H
 #define MM_H
@@ -82,7 +84,8 @@ private:
     bool should_quit = false;
 };
 
-#endif // !MM_H```
+#endif // !MM_H
+```
 
 menu.cpp:
 The menu.cpp file handles the functionality of the menu buttons and background. For a detailed implementation, check the full source code in this repository.
@@ -90,7 +93,8 @@ The menu.cpp file handles the functionality of the menu buttons and background. 
 Main File Example:
 Set up your main file to integrate the engine and handle game logic:
 
-```#include <SDL.h>
+```
+#include <SDL.h>
 #include <SDL_ttf.h>
 #include <SDL_image.h>
 #include <iostream>
@@ -119,7 +123,8 @@ int main(int argc, char* argv[]) {
 
     // Cleanup code
     return 0;
-}```
+}
+```
 
 🤔 Why Use This Engine?
 Rapid Development: Spend more time crafting your game and less time building boilerplate code. The engine provides a pre-configured foundation to jump straight into development.
